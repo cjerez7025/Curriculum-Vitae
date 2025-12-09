@@ -1,57 +1,164 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Javier Ruz</title>
-    <link rel="stylesheet" href="assets/styles/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+  <title>Portafolio Javier Ruz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/styles/styles.css" />
 </head>
 <body>
-
-<nav class="navbar">
-    <h2 class="logo">Javier Ruz</h2>
-    <ul class="nav-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a class="active" href="portafolio.html">Portafolio</a></li>
-    </ul>
-</nav>
-
-<header class="portfolio-header">
-    <h1>Mis Trabajos</h1>
-    <p>Una selección de proyectos realizados durante el Bootcamp Full Stack.</p>
-</header>
-
-<section class="portfolio-grid">
-
-    <div class="card">
-        <img src="assets/imgs/Screenshot CV Javier Ruz.png" alt="CV Proyecto">
-        <h3>Curriculum Vitae</h3>
-        <p>Primera construcción del CV utilizando HTML básico.</p>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Javier Ruz</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="portafolio.html">Portafolio</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <div class="card">
-        <img src="assets/imgs/Screenshot Landing Page.png" alt="Landing Page">
-        <h3>Landing Page</h3>
-        <p>Diseño de estructura visual con Flexbox.</p>
+  </nav>
+  <!-- HEADER PORTAFOLIO -->
+  <header class="portfolio-header text-center">
+    <div class="container">
+      <h1 class="mb-3">Mis trabajos</h1>
+      <p class="lead">
+        Algunos de los proyectos desarrollados durante el Bootcamp de
+        Desarrollador Web Full Stack.
+      </p>
     </div>
+  </header>
+  <!-- GRID DE PROYECTOS -->
+  <main class="section">
+    <div class="container">
+      <div class="row g-4">
+        <!-- DESAFÍO 01 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="assets/imgs/Screenshot CV Javier Ruz.png"
+              class="card-img-top"
+              alt="Desafío 01"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Desafío 01: CV y Portafolio</h5>
+              <p class="card-text">
+                Primer acercamiento a HTML, estructura básica de CV y portafolio
+                personal.
+              </p>
+              <div class="mt-auto d-flex flex-wrap gap-2">
+                <a
+                  href="desafios/Desafio_01/CV_JavierRuz.html"
+                  target="_blank"
+                  class="btn btn-outline-primary btn-sm"
+                  >Ver CV</a
+                >
+                <a
+                  href="desafios/Desafio_01/portafolio.html"
+                  target="_blank"
+                  class="btn btn-primary btn-sm"
+                  >Ver Portafolio</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <div class="card">
-        <img src="assets/imgs/Screenshot 1 Iguanas.png" alt="Proyecto Iguanas">
-        <h3>Iguanas</h3>
-        <p>Landing de fauna con imágenes controladas por CSS.</p>
+        <!-- DESAFÍO 02 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="assets/imgs/Screenshot Landing Page.png"
+              class="card-img-top"
+              alt="Desafío 02"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Desafío 02: Landing Page</h5>
+              <p class="card-text">
+                Landing desarrollada aplicando CSS y Flexbox para organizar el
+                contenido de manera responsiva.
+              </p>
+              <a
+                href="desafios/Desafio_02/index.html"
+                target="_blank"
+                class="btn btn-primary btn-sm mt-auto"
+                >Ver proyecto</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- DESAFÍO 03 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="assets/imgs/Screenshot 1 Iguanas.png"
+              class="card-img-top"
+              alt="Desafío 03"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Desafío 03: Iguanas</h5>
+              <p class="card-text">
+                Página temática de fauna, trabajando con imágenes, secciones y
+                maquetación con Flexbox.
+              </p>
+              <a
+                href="desafios/Desafio_03/index.html"
+                target="_blank"
+                class="btn btn-primary btn-sm mt-auto"
+                >Ver proyecto</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- DESAFÍO 04 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="assets/imgs/Screenshot 1 CUPPON.png"
+              class="card-img-top"
+              alt="Desafío 04"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Desafío 04: CUPPON</h5>
+              <p class="card-text">
+                Maquetación con Bootstrap 5, uso de grillas, cards y componentes
+                responsivos.
+              </p>
+              <a
+                href="desafios/Desafio_04/index.html"
+                target="_blank"
+                class="btn btn-primary btn-sm mt-auto"
+                >Ver proyecto</a
+              >
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
+  </main>
 
-    <div class="card">
-        <img src="assets/imgs/Screenshot 1 CUPPON.png" alt="Proyecto CUPPON">
-        <h3>CUPPON</h3>
-        <p>Uso de bootstrap para tarjetas responsivas.</p>
-    </div>
-
-</section>
-
-<footer class="footer">
+  <footer class="footer">
     <p>© 2025 Javier Ruz — Portafolio</p>
-</footer>
+  </footer>
 
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html> 
+</html>
