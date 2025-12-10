@@ -11,7 +11,7 @@
     color: #0a2342;
   }
   
-/* NAV BAR */
+  /* NAV BAR */
   .navbar-custom {
     background-color: #0a2342;
   }
@@ -101,10 +101,33 @@
     height: 180px;
   }
 
+  /* FOOTER */
   .footer {
     background-color: #0a2342;
     color: #ffffff;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+  }
+  
+  .footer-link {
+    color: #2EA3F2;
+    text-decoration: none;
+  }
+  
+  .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+  }
+
+  .footer-icon {
+      color: #2EA3F2;
+      font-size: 2rem;
+      transition: 0.2s;
+  }
+
+  .footer-icon:hover {
+      color: #ffffff;
+      transform: scale(1.15);
   }

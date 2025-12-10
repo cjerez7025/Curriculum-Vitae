@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
   <title>Portafolio Javier Ruz</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="assets/styles/styles.css" />
 </head>
@@ -27,6 +28,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="portafolio.html">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -52,18 +56,15 @@
             <img
               src="assets/imgs/Screenshot CV Javier Ruz.png"
               class="card-img-top"
-              alt="Desafío 01"/>
+              alt="Desafío 1"/>
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Desafío N°1: CV y Portafolio</h5>
-              <p class="card-text">
-                Estructura base de HTML para un CV y portafolio
-                personal.
-              </p>
+              <p class="card-text">Estructura base de HTML para un CV y portafolio personal.</p>
               <div class="mt-auto d-flex flex-wrap gap-2">
                 <a
                   href="desafios/Desafio_01/CV_JavierRuz.html"
                   target="_blank"
-                  class="btn btn-outline-primary btn-sm"
+                  class="btn btn-primary btn-sm"
                   >Ver CV</a>
                 <a
                   href="desafios/Desafio_01/portafolio.html"
@@ -80,13 +81,11 @@
             <img
               src="assets/imgs/Screenshot Landing Page.png"
               class="card-img-top"
-              alt="Desafío 02"
+              alt="Desafío 2"
             />
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Desafío N°2: Primera Landing Page</h5>
-              <p class="card-text">
-                Aplicando CSS para organizar contenido.
-              </p>
+              <p class="card-text">Aplicando CSS para organizar contenido.</p>
               <a
                 href="desafios/Desafio_02/index.html"
                 target="_blank"
@@ -101,12 +100,10 @@
             <img
               src="assets/imgs/Screenshot 1 Iguanas.png"
               class="card-img-top"
-              alt="Desafío 03"/>
+              alt="Desafío 3"/>
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Desafío N°3: Landing Page Iguanas</h5>
-              <p class="card-text">
-                Integración de Flexbox y CSS para maquetación.
-              </p>
+              <p class="card-text">Integración de Flexbox y CSS para maquetación.</p>
               <a
                 href="desafios/Desafio_03/index.html"
                 target="_blank"
@@ -121,14 +118,27 @@
             <img
               src="assets/imgs/Screenshot 1 CUPPON.png"
               class="card-img-top"
-              alt="Desafío 04"/>
+              alt="Desafío 4"/>
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Desafío N°4: Página Web CUPPON</h5>
-              <p class="card-text">
-                Maquetación con Bootstrap, uso de Grid, cards y responsividad.
-              </p>
+              <p class="card-text">Maquetación con Bootstrap, uso de Grid, cards y responsividad.</p>
               <a
                 href="desafios/Desafio_04/index.html"
+                target="_blank"
+                class="btn btn-primary btn-sm mt-auto"
+                >Ver proyecto</a>
+            </div>
+          </div>
+        </div>
+        <!-- DESAFÍO 5 -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/imgs/Screenshot Fork Git Hub.jpeg" class="card-img-top" alt="Desafío 5"/>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Desafío N°5: Fork &amp; Clone Repo GitHub</h5>
+              <p class="card-text">Realizar Fork, clonar y modificar un repositorio desde GitHub.</p>
+              <a
+                href="desafios/Desafio_05/index.html"
                 target="_blank"
                 class="btn btn-primary btn-sm mt-auto"
                 >Ver proyecto</a>
@@ -138,8 +148,34 @@
       </div>
     </div>
   </main>
-  <footer class="footer">
-    <p>© 2025 Javier Ruz — Portafolio</p>
+  <!-- FOOTER -->
+  <footer class="footer" id="contacto">
+    <div class="container">
+        <h5 class="text-white mb-3">Contacto</h5>
+        <!-- EMAIL -->
+        <p class="mb-2">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:javierruzrz@gmail.com" class="footer-link">
+                javierruzruz@gmail.com
+            </a>
+        </p>
+        <!-- REDES SOCIALES -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/javier-ruz-022880164/" 
+               target="_blank" class="footer-icon">
+               <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/JavierVsc"
+               target="_blank" class="footer-icon">
+               <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://instagram.com/"
+               target="_blank" class="footer-icon">
+               <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        <p class="text-white mt-3 small">© 2025 Javier Ruz — Todos los derechos reservados.</p>
+    </div>
   </footer>
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
